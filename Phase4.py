@@ -1,11 +1,3 @@
-# TEAMNAME: Los Joli Ranchel
-# STUDENT1 NAME: ALEJANDRO A. PEREZ
-# STUDENT1 ID: 802-21-1489
-# STUDENT2 NAME: GABRIEL CALVENTE TENORIO
-# STUDENT2 ID: 802-21-8215
-# SECTION: 080 and 100
-############      DEFINE CONSTANTS BELOW      ############
-
 # THE FOLLOWING LIST CONTAINS THE UNITS OF THE INGREDIENTS
 units = ['cups', 'tablespoons', '', 'cups',
          'teaspoons', 'teaspoons', 'slices', '']
