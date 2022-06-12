@@ -9,7 +9,7 @@ ingredients = ['flour', 'sugar', 'eggs', 'milk',
 # YOU WILL USE THE FOLLOWING LIST TO SAVE THE INGREDIENTS
 pantry = []
 
-# THE FOLLOWING ARE EXAMPLES OF RECIPES - OBSERVE THE ORDER OF THE INGREDIENTS IS THE SAME THAN THE ORDER OF THE PANTRY
+# THE FOLLOWING ARE EXAMPLES OF RECIPES - OBSERVE THE ORDER OF THE INGREDIENTS IS THE SAME AS THE ORDER OF THE PANTRY
 
 # banana pancakes require: 1 cup of flour, 2 tablespoons sugar, 1 egg, 1 cup of milk, 3 teaspoons cinnamon,
 # 2 teaspoon baking powder, 0 bread, 2 fruits
@@ -36,7 +36,7 @@ menu = [banana_pancake_recipe, peach_crepe_recipe,
 menu_list = ["banana pancake", "peach crepe", "apple pie",
              "french toast", "scrambled eggs with toast and fruits"]
 
-# The following funciton ask the user the ingredients in the pantry
+# The following function asks the user the ingredients in the pantry
 
 
 def pantry_ingredients(units, ingredients):
@@ -48,7 +48,7 @@ def pantry_ingredients(units, ingredients):
         item = input(f'How many {str(unit)}{str(ingredient)} do you have? ')
         pantry.append(float(item))
 
-# The following function show the ingredients of an exisiting pantry
+# The following function shows the ingredients of an existing pantry
 
 
 def show_pantry():
@@ -110,7 +110,7 @@ def valid_option(option):
                 else:
                     return option
     # write the code to verify if the option is valid, if the option is valid get the recipe from
-    # the list menu usind the list index, and return the recipe and break the loop, if option is 6 terminate the program
+    # the list menu using the list index, and return the recipe and break the loop, if the option is 6 terminate the program
     # if the option is not valid keep asking the user to enter a valid option while showing the recipe menu
     # print("MUST COMPLETE FUNCTION!")
 
@@ -134,8 +134,8 @@ def pantry_update():
     # hint: you can replace the pantry with a new pantry
     # print("MUST COMPLETE FUNCTION!")
 
-# YOU DON'T NEED TO MODIFY THE FOLLOWING LINES TO PERFORM THE REQUIERMENTS OF PHASE 1,
-# IF YOUR FUCNITONS ARE IMPLENTED CORRECTELY THE OUTPUT WOULD CORRESPOND TO THE EXAMPLES GIVEN
+# YOU DON'T NEED TO MODIFY THE FOLLOWING LINES TO PERFORM THE REQUIREMENTS OF PHASE 1,
+# IF YOUR FUNCTIONS ARE IMPLEMENTED CORRECTLY THE OUTPUT WOULD CORRESPOND TO THE EXAMPLES GIVEN
 
 
 # ? MAIN LOOP
